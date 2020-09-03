@@ -1,0 +1,253 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.Mein-container{
+    margin: 0 auto;
+   width: 100%;
+
+}
+.wrapper{
+max-width: 1024px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+.menu_bar{
+    display: none;
+}
+.section_header{
+    margin-bottom: 10px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin-bottom: -19px;
+    margin-top: -15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 29px;
+}
+
+.logo_img {
+    display: block;
+    width: 130px;
+    height: 52px;
+    background-image: url("../img/logo.png");
+background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    font-size: 17px;
+    font-family: "Segoe UI", sans-serif;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav li{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.nav_button{
+    background-color: #de6d6e;
+    border-radius: 5px;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    font-weight: 400;
+
+}
+.nav_button img{
+    padding-right: 7px;
+}
+
+.section_main{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.banner{
+    max-width: 1024px;
+    padding-top: 270px;
+    padding-bottom: 61px;
+    height: 100%;
+    margin: 0 auto;
+      color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.banner_title{
+    font-size: 69px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+font-family: "AlteHaasGrotesk_Bold",sans-serif;
+
+}
+.banner_text{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "UniversLT", sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    letter-spacing:1px;
+}
+
+.section_page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+.page_title{
+    font-size: 35px;
+    font-family: "Myriad Pro",sans-serif;
+    line-height: 1.2;
+    color: #404040;
+font-weight: 400;
+
+}
+.page_text{
+    font-size: 17px;
+    color: #636363;
+    font-family: "Myriad Pro",sans-serif;
+    margin-top: -10px;
+}
+.Page_Top{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%/*repeat(4, 1fr)*/;
+    justify-content: center;
+    padding: 9px;
+    margin-top: 62px;
+}
+.Page_Top div{
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+    padding: 50px;
+
+}
+.section_team{
+    border-top: 1px solid #e9e9e9;
+}
+.Team{
+    display: flex;
+    flex-direction: column;
+  margin-top: 1px;
+    margin-left: 76px;
+}
+.Team_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.Team_items img{
+    width: 200px;
+    height: 130px;
+    margin-right: 26px;
+}
+.Team_items h3{
+    font-size: 27px;
+    font-family: "UniversLT", sans-serif;
+font-weight: 400;
+    color: #404040;
+    margin-bottom: 23px;
+    text-align: left;
+}
+.Team_items p{
+color: #8b8b8b;
+    font-size: 15px;
+    font-family: "UniversLT", sans-serif;
+    text-align: left;
+    line-height: 1.467;
+}
+.section_footer{
+    height: 255px;
+    background-color: #262c29;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    height: 260px;
+    margin-top: 22px;
+    margin-left: 41px;
+}
+
+.Wrap_box_footer{
+    list-style-position: inside;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+    font-size: 15px;
+    font-family: "Myriad Pro",sans-serif;
+    line-height: 1.467;
+    text-align: Left;
+    align-items: center;
+    list-style-type: none;
+    color: #868686;
+}
+
+.list{
+    color: #868686;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Wrap_box_footer ul{
+    color: #868686;
+    text-decoration: none;
+}
+.social_list a{
+    color: #868686;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.social_list {
+    display: inline-flex;
+    grid-gap: 40px;
+}
+.social_text{
+    font-size: 15px;
+    font-family: "Myriad Pro",sans-serif;
+    color: #868686;
+    margin-bottom: 97px;
+    justify-content: center;
+    padding-left: 32px;
+    line-height: 1.467;
+
+}
+
+.social_list li{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 40px;
+    align-items: end;
+}
